@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	  <LangVersion>latest</LangVersion>
+    <RootNamespace>State_PM</RootNamespace>
+    <StartupObject>State_PM.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Else.TheProcessManager" Version="2.4.21" />
+    <PackageReference Include="TheSaga" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
